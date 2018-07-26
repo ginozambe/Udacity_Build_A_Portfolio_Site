@@ -1,0 +1,114 @@
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gino's Portfolio 🔥 </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+        <link  rel="stylesheet"href="css/bootstrap.min.css">
+        <link  rel="stylesheet"href="css/style.css">
+      </head>
+      <body>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 profilePic">
+             <img src="img/GinoZambe.jpg" alt="profilePicture">
+           </div>
+            <div class="col-md-6 text-right text-uppercase">
+              <h1 class="title-super text-thin"> Gino Zambelli</h1>
+              <h4 class="title-sub"> Front End Dev</h4>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <hr>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <img class="img-responsive center-block" src="img/web-dev.jpg" alt="main image">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+              </div>
+            </div>
+            <div class="row text-center">
+              <div class="col-md-4">
+                <img class="img-responsive" src="img/about.png" alt="About"
+                data-toggle="modal" data-target="#project1">
+                <h3 class="test-uppercase">About Me</h3>
+              </div>
+              <div class="col-md-4">
+                <img class="img-responsive" src="img/coolanimation.png"  alt="CoolImg"
+                data-toggle="modal" data-target="#project2">
+                <h3 class="test-uppercase">CSS Image Animation</h3>
+              </div>
+              <div class="col-md-4">
+                <img class="img-responsive" src="img/txtanimation.png" alt="CoolText"
+                data-toggle="modal" data-target="#project3">
+                <h3 class="test-uppercase">CSS Text Animation</h3>
+              </div>
+
+      <!--modal -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">About me</h5>
+          </div>
+          <div class="modal-body">
+            <img class=" img-responsive center-block" src="img/about.png">
+            <p>Checkout my projects in Github!</p>
+              <a class="github-about" href="https://github.com/ginozambelli">GitHub</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Cool_Img_animation</h5>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive center-block" src="img/coolanimation.png">
+          <p>Checkout my project in Github!</p>
+          <a class="github-img" href="https://github.com/ginozambelli/Cool_Img_Animation">GitHub</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog"
+    aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cool_Txt_animation</h5>
+      </div>
+      <div class="modal-body">
+        <img class=" img-responsive center-block" src="img/txtanimation.png" >
+        <p>Checkout my project in Github!</p>
+          <a class="github-txt" href="https://github.com/ginozambelli/Cool_Txt_animation">GitHub</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+      <script  src="js/bootstrap.min.js"></script>
+      </body>
+      </html>
