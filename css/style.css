@@ -1,0 +1,34 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #747784;
+  font-weight: 300;
+}
+
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+
+.profilePic img {
+  max-width: 120px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Responsiveness*/
+
+@media (max-width: 62em) {
+
+  .title-super, .title-sub, .profilePic{
+    text-align: center;
+  }
+
+}
